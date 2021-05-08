@@ -6,6 +6,7 @@ author = "Yenson Lau"
 author_bio = "Probably not a commoner."
 author_loc = "Toronto"
 mintoclevel = 2
+@def prepath = "minimal"
 
 # Add here files or directories that should be ignored by Franklin, otherwise
 # these files might be copied and, if markdown, processed by Franklin which
