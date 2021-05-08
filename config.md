@@ -2,7 +2,9 @@
 Add here global page variables to use throughout your website.
 -->
 +++
-author = "Septimia Zenobia"
+author = "Yenson Lau"
+author_bio = "Probably not a commoner."
+author_loc = "Toronto"
 mintoclevel = 2
 
 # Add here files or directories that should be ignored by Franklin, otherwise
