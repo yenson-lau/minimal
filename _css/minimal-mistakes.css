@@ -514,26 +514,26 @@ button:focus {
 html {
   box-sizing: border-box;
   background-color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
 @media (min-width: 48em) {
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 @media (min-width: 64em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 @media (min-width: 80em) {
   html {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -680,7 +680,7 @@ body {
   margin: 0;
   padding: 0;
   color: #494e52;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -696,7 +696,7 @@ h5,
 h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -1021,7 +1021,7 @@ button,
 select,
 textarea {
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 }
 
 label {
@@ -1326,7 +1326,7 @@ table {
   display: block;
   margin-bottom: 1em;
   width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
   border-collapse: collapse;
   overflow-x: auto;
@@ -1383,7 +1383,7 @@ th {
   display: inline-block;
   margin-bottom: 0.25em;
   padding: 0.5em 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
   font-weight: bold;
   text-align: center;
@@ -1588,7 +1588,7 @@ th {
   margin: 2em 0 !important;
   padding: 1em;
   color: #494e52;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial;
   background-color: #f8f9f9;
@@ -1635,7 +1635,7 @@ th {
   margin: 2em 0 !important;
   padding: 1em;
   color: #494e52;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial;
   background-color: #f1f1f2;
@@ -1682,7 +1682,7 @@ th {
   margin: 2em 0 !important;
   padding: 1em;
   color: #494e52;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial;
   background-color: #ebf5f8;
@@ -1729,7 +1729,7 @@ th {
   margin: 2em 0 !important;
   padding: 1em;
   color: #494e52;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial;
   background-color: #fbf2e6;
@@ -1776,7 +1776,7 @@ th {
   margin: 2em 0 !important;
   padding: 1em;
   color: #494e52;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial;
   background-color: #ecf6ec;
@@ -1823,7 +1823,7 @@ th {
   margin: 2em 0 !important;
   padding: 1em;
   color: #494e52;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial;
   background-color: #fdefef;
@@ -1888,7 +1888,7 @@ th {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 }
 
 .masthead__inner-wrap::after {
@@ -1921,7 +1921,8 @@ th {
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
-  font-weight: bold;
+  font-size: 20;
+  font-weight: 500;
   z-index: 20;
 }
 
@@ -1967,7 +1968,7 @@ th {
   max-width: 100%;
   padding-left: 1em;
   padding-right: 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
   -webkit-animation-delay: 0.3s;
@@ -2031,7 +2032,7 @@ th {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 }
 
 .pagination li {
@@ -2044,7 +2045,7 @@ th {
   display: block;
   margin-bottom: 0.25em;
   padding: 0.5em 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 1.5;
@@ -2090,7 +2091,7 @@ th {
   padding: 1em 2em;
   float: left;
   width: 50%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1em;
   font-weight: bold;
   text-align: center;
@@ -2142,18 +2143,20 @@ th {
   align-items: center;
   min-height: 2em;
   background: #fff;
+  font-weight: 350;
 }
 
 .greedy-nav a {
   display: block;
   margin: 0 1rem;
-  color: #6f777d;
+  color: #17252A;
   text-decoration: none;
 }
 
-.greedy-nav a:hover {
+/* Changes text color on hover */
+/* .greedy-nav a:hover {
   color: #53595e;
-}
+} */
 
 .greedy-nav a.site-logo {
   margin-left: 0;
@@ -2197,7 +2200,8 @@ th {
   position: relative;
 }
 
-.greedy-nav .visible-links a::before {
+/* Creates ugly underline on hover */
+/* .greedy-nav .visible-links a::before {
   content: "";
   position: absolute;
   left: 0;
@@ -2209,7 +2213,7 @@ th {
   transition: all 0.2s ease-in-out;
   -webkit-transform: scaleX(0) translate3d(0, 0, 0);
   transform: scaleX(0) translate3d(0, 0, 0);
-}
+} */
 
 .greedy-nav .visible-links a:hover::before {
   -webkit-transform: scaleX(1);
@@ -2435,7 +2439,7 @@ th {
 .nav__title {
   margin: 0;
   padding: 0.5rem 0.75rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1em;
   font-weight: bold;
 }
@@ -2444,7 +2448,7 @@ th {
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
   font-weight: bold;
   text-transform: uppercase;
@@ -2452,7 +2456,7 @@ th {
 }
 
 .toc {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   color: #7a8288;
   background-color: #fff;
   border: 1px solid #f2f3f3;
@@ -2585,7 +2589,7 @@ th {
 }
 
 .page__footer-copyright {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.6875em;
 }
 
@@ -2599,7 +2603,7 @@ th {
   display: inline-block;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
   text-transform: uppercase;
 }
@@ -3117,7 +3121,7 @@ body:hover .visually-hidden button {
   position: fixed;
   z-index: 20;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   white-space: nowrap;
 }
 
@@ -3610,7 +3614,7 @@ a.reversefootnote:hover {
 }
 
 .page__lead {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1.25em;
 }
 
@@ -3639,13 +3643,13 @@ a.reversefootnote:hover {
 
 .page__content dt {
   margin-top: 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-weight: bold;
 }
 
 .page__content dd {
   margin-left: 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
 }
 
@@ -3715,12 +3719,14 @@ a.reversefootnote:hover {
 .page__hero--overlay .page__lead,
 .page__hero--overlay .btn,
 .page__hero--overlay #goog-wm-sb {
-  color: #fff;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  /* color: #fff; */
+  /* text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); */
+  color: #17252A;
 }
 
 .page__hero--overlay .page__lead {
   max-width: 768px;
+  font-weight: 350;
 }
 
 .page__hero--overlay .page__title {
@@ -3796,7 +3802,7 @@ a.reversefootnote:hover {
 .comment__date {
   margin-top: 2em;
   color: #898c8f;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
 }
 
@@ -4112,7 +4118,7 @@ a.reversefootnote:hover {
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -4567,12 +4573,12 @@ a.reversefootnote:hover {
 .sidebar h5,
 .sidebar h6 {
   margin-bottom: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 }
 
 .sidebar p,
 .sidebar li {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
   line-height: 1.5;
 }
@@ -4698,7 +4704,7 @@ a.reversefootnote:hover {
 }
 
 .sidebar .author__name {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1em;
 }
 
@@ -4717,7 +4723,7 @@ a.reversefootnote:hover {
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   z-index: 10;
   position: relative;
   cursor: pointer;
