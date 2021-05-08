@@ -2,11 +2,15 @@
 Add here global page variables to use throughout your website.
 -->
 +++
+# For a GitHub project website, the prepath variable is used upon deployment
+# to indicate that the base URL of your website is <user>.github.io/<prepath>/
+# instead of <user>.github.io (remove for user website).
+prepath = "minimal"
+
 author = "Yenson Lau"
-author_bio = "Probably not a commoner."
+author_bio = "Some bio text."
 author_loc = "Toronto"
 mintoclevel = 2
-prepath = "minimal"
 
 # Add here files or directories that should be ignored by Franklin, otherwise
 # these files might be copied and, if markdown, processed by Franklin which
