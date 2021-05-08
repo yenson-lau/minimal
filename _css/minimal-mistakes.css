@@ -685,10 +685,6 @@ body {
   line-height: 1.5;
 }
 
-strong {
-  font-weight: 500;
-}
-
 body.overflow--hidden {
   overflow: hidden;
 }
@@ -733,6 +729,10 @@ h6 {
 small,
 .small {
   font-size: 0.75em;
+}
+
+strong {
+  font-weight: 500;
 }
 
 p {
