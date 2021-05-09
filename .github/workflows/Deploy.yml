@@ -14,7 +14,7 @@ jobs:
       with:
         persist-credentials: false
 
-    - run: 'shopt -s extglob && mkdir __site/minimal && mv __site/!(minimal) __site/minimal'
+    - run: 'mkdir minimal && mv __site/ minimal && mv minimal __site'
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
