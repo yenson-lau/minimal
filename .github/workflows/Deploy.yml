@@ -14,7 +14,7 @@ jobs:
       with:
         persist-credentials: false
 
-    - run: 'mkdir __site/minimal && mv __site/* __site/minimal'
+    - run: 'mkdir __site/minimal && mv __site/!(minimal) __site/minimal'
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
