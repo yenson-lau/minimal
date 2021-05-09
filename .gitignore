@@ -1,7 +1,8 @@
 # __site/
+# franklin
 .vscode
 .DS_Store
-# franklin
 franklin.pub
 node_modules/
 Manifest.toml
+package-lock.json
