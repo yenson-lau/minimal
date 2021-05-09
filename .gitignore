@@ -1,7 +1,7 @@
 # __site/
 .vscode
 .DS_Store
-franklin
+# franklin
 franklin.pub
 node_modules/
 Manifest.toml

@@ -514,27 +514,26 @@ button:focus {
 html {
   box-sizing: border-box;
   background-color: #fff;
-  font-size: 14px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
+html { font-size: 16px; }
+a.site-title { font-size: 18px; font-weight: 500; }
+
 @media (min-width: 48em) {
-  html {
-    font-size: 16px;
-  }
+  html { font-size: 17px; }
+  a.site-title { font-size: 19px; }
 }
 
 @media (min-width: 64em) {
-  html {
-    font-size: 18px;
-  }
+  html { font-size: 18px; }
+  a.site-title { font-size: 20px; }
 }
 
 @media (min-width: 80em) {
-  html {
-    font-size: 20px;
-  }
+  html { font-size: 18px; }
+  a.site-title { font-size: 20px; }
 }
 
 body {
@@ -698,7 +697,7 @@ h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 h1 {
@@ -1926,7 +1925,6 @@ th {
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
-  font-weight: 500;
   z-index: 20;
 }
 
@@ -4120,6 +4118,7 @@ a.reversefootnote:hover {
 
 .archive__item-title {
   margin-bottom: 0.25em;
+  padding-bottom: 0.2em;
   font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   line-height: initial;
   overflow: hidden;
@@ -4146,7 +4145,7 @@ a.reversefootnote:hover {
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: 0.75em;
+  font-size: .9em;
 }
 
 .archive__item-excerpt + p {
@@ -4301,7 +4300,7 @@ a.reversefootnote:hover {
 .feature__wrapper {
   clear: both;
   margin-bottom: 2em;
-  border-bottom: 1px solid #f2f3f3;
+  border-bottom: 0px solid #f2f3f3;
 }
 
 .feature__wrapper::after {
